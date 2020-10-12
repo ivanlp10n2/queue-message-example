@@ -12,6 +12,13 @@ Another spring boot application will be listening the topic and store event in C
 - consumer: spring boot consumer of kafka topic and saves in cassandra.
 - consumer_db : stores in cassandra.
 
+## Build
+Build all applications (from root):
+```
+./gradlew build
+```
+
+
 ## API
 All the endpoints are HTTP secured with basic auth.
 ```
